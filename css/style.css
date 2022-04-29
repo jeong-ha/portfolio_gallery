@@ -88,7 +88,8 @@ main{
 
 /*chuchu*/
 .bb img{width: 100%;}
-.sb img{width: 40%;}
+.sb{width: 100%;}
+.sb img{width: 50%; float: left;}
 .sb .badge{width: 150px;}
 /*straw*/
 .straw img{width: 49%;}
