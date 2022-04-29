@@ -117,8 +117,19 @@ footer{
     width: 90%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .pop{
     text-decoration: underline;
     cursor:pointer;
+    min-width:64px;
+}
+
+@media only screen and (max-width: 600px){
+    img{
+        width: 100% !important;
+        margin-bottom: 6px;
+    }
+    .tabmenu{width: 100%;}
+    .footer_txt{width: 95%;}
 }
