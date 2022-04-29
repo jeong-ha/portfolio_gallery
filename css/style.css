@@ -29,16 +29,14 @@ ul li{list-style-type: none;}
 .clearfix:after{clear: both;}
 /*header*/
 header{
-    background: linear-gradient(to right,#ff4b75, #ffdd63);
+    background: linear-gradient(to right,#ff4b75, #fbbe35);
     height: 50px;
     width: 100%;
 }
 /*main*/
 main{
     width:100%;
-    position:absolute;
-    top:0px;
-    left:0px;
+    margin-top: -50px;
 }
 .tabmenu{
     width: 90%;
@@ -49,6 +47,7 @@ main{
     margin: 0 auto;
     display: none;
     clear:both;
+    margin-bottom: 100px;
 }
 .tabmenu>input{
     position:absolute;
@@ -100,3 +99,26 @@ main{
     text-align: center;
 }
 .lol{text-decoration: underline;}
+
+/*footer*/
+footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left,#ff4b75, #fbbe35);
+    color: white;
+    position:fixed;
+    bottom: 0px;
+    left: 0px;
+}
+.footer_txt{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.pop{
+    text-decoration: underline;
+    cursor:pointer;
+}
